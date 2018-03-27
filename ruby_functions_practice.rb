@@ -66,3 +66,12 @@ def number_to_short_month_name(month)
 
   return short_month
 end
+
+def volume_of_cube(num_1)
+  return num_1 **3
+end
+
+def volume_of_sphere(num_1)
+  volume = (4.0 / 3.0) * 3.14 * num_1**3
+  return volume.round(2)
+end
